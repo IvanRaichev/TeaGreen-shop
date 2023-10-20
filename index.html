@@ -4,11 +4,11 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/style.min.css?_v=20231002125016">
+   <link rel="stylesheet" href="css/style.min.css?_v=20231020115010">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@100;300;400;500;600;700;800&display=swap&_v=20231002125016"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@100;300;400;500;600;700;800&display=swap&_v=20231020115010"
       rel="stylesheet">
    <title>Главная</title>
 </head>
@@ -593,7 +593,7 @@
                </ul>
             </nav>
          </div>
-         <div class="header__slider" style="background-image: url(./img/header-bg/image\ 2.png);">
+         <div class="header__slider" style="background-image: url(../img/header-bg/image\ 2.png);">
             <div class="header__slider-item header-slider">
                <div class="header__slider-info">
                   <div class="header__slider-title">Чарівність чаю
@@ -1098,90 +1098,52 @@
                </div>
                <div class="product__item tabs__item active" id="tab_2">
                   <div class="card">
-
-                     <div class="card__item">
-                        <div class="card__sale">Sale 50%</div>
-                        <div class="card__icon">
-                           <img src="img/product/wishlist.svg" alt="wishlist">
-                           <img src="img/product/Quick.svg" alt="Quick">
-                        </div>
-                        <picture><source srcset="img/product/2.webp" type="image/webp"><img src="img/product/2.png" alt="tea" class="card__inner-img"></picture>
-                        <div class="card__inner">
-                           <div class="card__inner-box">
-                              <div class="card__inner-info">
-                                 <div class="card__inner-title">Red Label Black tea</div>
-                                 <div class="card__inner-price">₴140.99</div>
-                                 <div class="rating rating__set">
-                                    <div class="rating__body">
-                                       <div class="rating__active"></div>
-                                       <div class="rating__items">
-                                          <input type="radio" class="rating__item" value="1" name="rating">
-                                          <input type="radio" class="rating__item" value="2" name="rating">
-                                          <input type="radio" class="rating__item" value="3" name="rating">
-                                          <input type="radio" class="rating__item" value="4" name="rating">
-                                          <input type="radio" class="rating__item" value="5" name="rating">
-                                       </div>
-                                    </div>
-                                    <div class="rating__value">4</div>
-                                 </div>
-                              </div>
-
-                           </div>
-                           <a href="#" class="card__inner-basket">
-                              <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
-                                    stroke="#002403" stroke-width="1.3" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                              </svg>
-
-                           </a>
-                        </div>
-
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                     data-value="Чорний чай, Саше, Ваніль, 30 г">
+                     <a href="#popup3" class="card__popup popup-link"></a>
+                     <div class="card__sale">Sale 50%</div>
+                     <div class="card__icon">
+                        <img src="img/product/wishlist.svg" alt="wishlist">
+                        <img src="img/product/Quick.svg" alt="Quick">
                      </div>
-                     <div class="card__item">
-                        <div class="card__sale">Sale 50%</div>
-                        <div class="card__icon">
-                           <img src="img/product/wishlist.svg" alt="wishlist">
-                           <img src="img/product/Quick.svg" alt="Quick">
-                        </div>
-                        <picture><source srcset="img/product/3.webp" type="image/webp"><img src="img/product/3.png" alt="tea" class="card__inner-img"></picture>
-                        <div class="card__inner">
-                           <div class="card__inner-box">
-                              <div class="card__inner-info">
-                                 <div class="card__inner-title">Tatley Green Tea</div>
-                                 <div class="card__inner-price">₴89.99</div>
-                                 <div class="rating rating__set">
-                                    <div class="rating__body">
-                                       <div class="rating__active"></div>
-                                       <div class="rating__items">
-                                          <input type="radio" class="rating__item" value="1" name="rating">
-                                          <input type="radio" class="rating__item" value="2" name="rating">
-                                          <input type="radio" class="rating__item" value="3" name="rating">
-                                          <input type="radio" class="rating__item" value="4" name="rating">
-                                          <input type="radio" class="rating__item" value="5" name="rating">
-                                       </div>
+                     <picture><source srcset="img/product/6.webp" type="image/webp"><img src="img/product/6.png" alt="tea" class="card__inner-img"></picture>
+                     <div class="card__inner">
+                        <div class="card__inner-box">
+                           <div class="card__inner-info">
+                              <div class="card__inner-title">Red Label Strong Tea</div>
+                              <div class="card__inner-price">₴129.99</div>
+                              <div class="rating rating__set">
+                                 <div class="rating__body">
+                                    <div class="rating__active"></div>
+                                    <div class="rating__items">
+                                       <input type="radio" class="rating__item" value="1" name="rating">
+                                       <input type="radio" class="rating__item" value="2" name="rating">
+                                       <input type="radio" class="rating__item" value="3" name="rating">
+                                       <input type="radio" class="rating__item" value="4" name="rating">
+                                       <input type="radio" class="rating__item" value="5" name="rating">
                                     </div>
-                                    <div class="rating__value">4</div>
                                  </div>
+                                 <div class="rating__value">4</div>
                               </div>
-
                            </div>
-                           <a href="#" class="card__inner-basket">
-                              <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
-                                    stroke="#002403" stroke-width="1.3" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                              </svg>
 
-                           </a>
                         </div>
+                        <a href="#" class="card__inner-basket">
+                           <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
+                                 stroke="#002403" stroke-width="1.3" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
 
+                        </a>
                      </div>
-                     <div class="card__item">
+
+                  </div>
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Розсипний, Манго, 200г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1223,89 +1185,9 @@
 
                      </div>
 
-                     <div class="card__item">
-                        <div class="card__sale">Sale 50%</div>
-                        <div class="card__icon">
-                           <img src="img/product/wishlist.svg" alt="wishlist">
-                           <img src="img/product/Quick.svg" alt="Quick">
-                        </div>
-                        <picture><source srcset="img/product/5.webp" type="image/webp"><img src="img/product/5.png" alt="tea" class="card__inner-img"></picture>
-                        <div class="card__inner">
-                           <div class="card__inner-box">
-                              <div class="card__inner-info">
-                                 <div class="card__inner-title">Taj Mahal Black Tea</div>
-                                 <div class="card__inner-price">₴189.99</div>
-                                 <div class="rating rating__set">
-                                    <div class="rating__body">
-                                       <div class="rating__active"></div>
-                                       <div class="rating__items">
-                                          <input type="radio" class="rating__item" value="1" name="rating">
-                                          <input type="radio" class="rating__item" value="2" name="rating">
-                                          <input type="radio" class="rating__item" value="3" name="rating">
-                                          <input type="radio" class="rating__item" value="4" name="rating">
-                                          <input type="radio" class="rating__item" value="5" name="rating">
-                                       </div>
-                                    </div>
-                                    <div class="rating__value">4</div>
-                                 </div>
-                              </div>
-
-                           </div>
-                           <a href="#" class="card__inner-basket">
-                              <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
-                                    stroke="#002403" stroke-width="1.3" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                              </svg>
-
-                           </a>
-                        </div>
-
-                     </div>
-                     <div class="card__item">
-                        <div class="card__sale">Sale 50%</div>
-                        <div class="card__icon">
-                           <img src="img/product/wishlist.svg" alt="wishlist">
-                           <img src="img/product/Quick.svg" alt="Quick">
-                        </div>
-                        <picture><source srcset="img/product/6.webp" type="image/webp"><img src="img/product/6.png" alt="tea" class="card__inner-img"></picture>
-                        <div class="card__inner">
-                           <div class="card__inner-box">
-                              <div class="card__inner-info">
-                                 <div class="card__inner-title">Red Label Strong Tea</div>
-                                 <div class="card__inner-price">₴129.99</div>
-                                 <div class="rating rating__set">
-                                    <div class="rating__body">
-                                       <div class="rating__active"></div>
-                                       <div class="rating__items">
-                                          <input type="radio" class="rating__item" value="1" name="rating">
-                                          <input type="radio" class="rating__item" value="2" name="rating">
-                                          <input type="radio" class="rating__item" value="3" name="rating">
-                                          <input type="radio" class="rating__item" value="4" name="rating">
-                                          <input type="radio" class="rating__item" value="5" name="rating">
-                                       </div>
-                                    </div>
-                                    <div class="rating__value">4</div>
-                                 </div>
-                              </div>
-
-                           </div>
-                           <a href="#" class="card__inner-basket">
-                              <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
-                                    stroke="#002403" stroke-width="1.3" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                              </svg>
-
-                           </a>
-                        </div>
-
-                     </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Великолистовий, Яблуко, 150 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1346,19 +1228,63 @@
                         </div>
 
                      </div>
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                     data-value="Чорний чай, Розсипний, Лимон, 250 г">
+                     <a href="#popup3" class="card__popup popup-link"></a>
+                     <div class="card__sale">Sale 50%</div>
+                     <div class="card__icon">
+                        <img src="img/product/wishlist.svg" alt="wishlist">
+                        <img src="img/product/Quick.svg" alt="Quick">
+                     </div>
+                     <picture><source srcset="img/product/3.webp" type="image/webp"><img src="img/product/3.png" alt="tea" class="card__inner-img"></picture>
+                     <div class="card__inner">
+                        <div class="card__inner-box">
+                           <div class="card__inner-info">
+                              <div class="card__inner-title">Tatley Green Tea</div>
+                              <div class="card__inner-price">₴89.99</div>
+                              <div class="rating rating__set">
+                                 <div class="rating__body">
+                                    <div class="rating__active"></div>
+                                    <div class="rating__items">
+                                       <input type="radio" class="rating__item" value="1" name="rating">
+                                       <input type="radio" class="rating__item" value="2" name="rating">
+                                       <input type="radio" class="rating__item" value="3" name="rating">
+                                       <input type="radio" class="rating__item" value="4" name="rating">
+                                       <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                 </div>
+                                 <div class="rating__value">4</div>
+                              </div>
+                           </div>
 
-                     <div class="card__item">
+                        </div>
+                        <a href="#" class="card__inner-basket">
+                           <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
+                                 stroke="#002403" stroke-width="1.3" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
+
+                        </a>
+                     </div>
+
+                  </div>
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Саше, Груша, 25 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
                            <img src="img/product/Quick.svg" alt="Quick">
                         </div>
-                        <picture><source srcset="img/product/8.webp" type="image/webp"><img src="img/product/8.png" alt="tea" class="card__inner-img"></picture>
+                        <picture><source srcset="img/product/5.webp" type="image/webp"><img src="img/product/5.png" alt="tea" class="card__inner-img"></picture>
                         <div class="card__inner">
                            <div class="card__inner-box">
                               <div class="card__inner-info">
-                                 <div class="card__inner-title">Teltey Orange Tea</div>
-                                 <div class="card__inner-price">₴199.99</div>
+                                 <div class="card__inner-title">Taj Mahal Black Tea</div>
+                                 <div class="card__inner-price">₴189.99</div>
                                  <div class="rating rating__set">
                                     <div class="rating__body">
                                        <div class="rating__active"></div>
@@ -1388,7 +1314,53 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                     data-value="Білий чай, Збірний, Персик, 100 г">
+                     <a href="#popup3" class="card__popup popup-link"></a>
+                     <div class="card__sale">Sale 50%</div>
+                     <div class="card__icon">
+                        <img src="img/product/wishlist.svg" alt="wishlist">
+                        <img src="img/product/Quick.svg" alt="Quick">
+                     </div>
+                     <picture><source srcset="img/product/2.webp" type="image/webp"><img src="img/product/2.png" alt="tea" class="card__inner-img"></picture>
+                     <div class="card__inner">
+                        <div class="card__inner-box">
+                           <div class="card__inner-info">
+                              <div class="card__inner-title">Red Label Black tea</div>
+                              <div class="card__inner-price">₴140.99</div>
+                              <div class="rating rating__set">
+                                 <div class="rating__body">
+                                    <div class="rating__active"></div>
+                                    <div class="rating__items">
+                                       <input type="radio" class="rating__item" value="1" name="rating">
+                                       <input type="radio" class="rating__item" value="2" name="rating">
+                                       <input type="radio" class="rating__item" value="3" name="rating">
+                                       <input type="radio" class="rating__item" value="4" name="rating">
+                                       <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                 </div>
+                                 <div class="rating__value">4</div>
+                              </div>
+                           </div>
+
+                        </div>
+                        <a href="#" class="card__inner-basket">
+                           <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
+                                 stroke="#002403" stroke-width="1.3" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
+
+                        </a>
+                     </div>
+
+                  </div>
+                    
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Розсипний, М'ятний, 180 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1400,6 +1372,49 @@
                               <div class="card__inner-info">
                                  <div class="card__inner-title">Taaza Green Tea</div>
                                  <div class="card__inner-price">₴159.99</div>
+                                 <div class="rating rating__set">
+                                    <div class="rating__body">
+                                       <div class="rating__active"></div>
+                                       <div class="rating__items">
+                                          <input type="radio" class="rating__item" value="1" name="rating">
+                                          <input type="radio" class="rating__item" value="2" name="rating">
+                                          <input type="radio" class="rating__item" value="3" name="rating">
+                                          <input type="radio" class="rating__item" value="4" name="rating">
+                                          <input type="radio" class="rating__item" value="5" name="rating">
+                                       </div>
+                                    </div>
+                                    <div class="rating__value">4</div>
+                                 </div>
+                              </div>
+
+                           </div>
+                           <a href="#" class="card__inner-basket">
+                              <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
+                                    stroke="#002403" stroke-width="1.3" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                              </svg>
+
+                           </a>
+                        </div>
+
+                     </div>
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Чорний чай, Збірний, Чорниця, 300 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
+                        <div class="card__sale">Sale 50%</div>
+                        <div class="card__icon">
+                           <img src="img/product/wishlist.svg" alt="wishlist">
+                           <img src="img/product/Quick.svg" alt="Quick">
+                        </div>
+                        <picture><source srcset="img/product/8.webp" type="image/webp"><img src="img/product/8.png" alt="tea" class="card__inner-img"></picture>
+                        <div class="card__inner">
+                           <div class="card__inner-box">
+                              <div class="card__inner-info">
+                                 <div class="card__inner-title">Teltey Orange Tea</div>
+                                 <div class="card__inner-price">₴199.99</div>
                                  <div class="rating rating__set">
                                     <div class="rating__body">
                                        <div class="rating__active"></div>
@@ -1433,48 +1448,9 @@
                </div>
                <div class="product__item tabs__item active" id="tab_3">
                   <div class="card">
-                     <div class="card__item">
-                        <div class="card__sale">Sale 50%</div>
-                        <div class="card__icon">
-                           <img src="img/product/wishlist.svg" alt="wishlist">
-                           <img src="img/product/Quick.svg" alt="Quick">
-                        </div>
-                        <picture><source srcset="img/product/2.webp" type="image/webp"><img src="img/product/2.png" alt="tea" class="card__inner-img"></picture>
-                        <div class="card__inner">
-                           <div class="card__inner-box">
-                              <div class="card__inner-info">
-                                 <div class="card__inner-title">Red Label Black tea</div>
-                                 <div class="card__inner-price">₴140.99</div>
-                                 <div class="rating rating__set">
-                                    <div class="rating__body">
-                                       <div class="rating__active"></div>
-                                       <div class="rating__items">
-                                          <input type="radio" class="rating__item" value="1" name="rating">
-                                          <input type="radio" class="rating__item" value="2" name="rating">
-                                          <input type="radio" class="rating__item" value="3" name="rating">
-                                          <input type="radio" class="rating__item" value="4" name="rating">
-                                          <input type="radio" class="rating__item" value="5" name="rating">
-                                       </div>
-                                    </div>
-                                    <div class="rating__value">4</div>
-                                 </div>
-                              </div>
-
-                           </div>
-                           <a href="#" class="card__inner-basket">
-                              <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
-                                    stroke="#002403" stroke-width="1.3" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                              </svg>
-
-                           </a>
-                        </div>
-
-                     </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Розсипний, Манго, 200г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1515,49 +1491,9 @@
                         </div>
 
                      </div>
-
-                     <div class="card__item">
-                        <div class="card__sale">Sale 50%</div>
-                        <div class="card__icon">
-                           <img src="img/product/wishlist.svg" alt="wishlist">
-                           <img src="img/product/Quick.svg" alt="Quick">
-                        </div>
-                        <picture><source srcset="img/product/4.webp" type="image/webp"><img src="img/product/4.png" alt="tea" class="card__inner-img"></picture>
-                        <div class="card__inner">
-                           <div class="card__inner-box">
-                              <div class="card__inner-info">
-                                 <div class="card__inner-title">Abrah Black Tea</div>
-                                 <div class="card__inner-price">₴109.99</div>
-                                 <div class="rating rating__set">
-                                    <div class="rating__body">
-                                       <div class="rating__active"></div>
-                                       <div class="rating__items">
-                                          <input type="radio" class="rating__item" value="1" name="rating">
-                                          <input type="radio" class="rating__item" value="2" name="rating">
-                                          <input type="radio" class="rating__item" value="3" name="rating">
-                                          <input type="radio" class="rating__item" value="4" name="rating">
-                                          <input type="radio" class="rating__item" value="5" name="rating">
-                                       </div>
-                                    </div>
-                                    <div class="rating__value">4</div>
-                                 </div>
-                              </div>
-
-                           </div>
-                           <a href="#" class="card__inner-basket">
-                              <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
-                                    stroke="#002403" stroke-width="1.3" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                              </svg>
-
-                           </a>
-                        </div>
-
-                     </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Чорний чай, Розсипний, Лимон, 250 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1598,8 +1534,97 @@
                         </div>
 
                      </div>
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                     data-value="Чорний чай, Збірний, Чорниця, 300 г">
+                     <a href="#popup3" class="card__popup popup-link"></a>
+                     <div class="card__sale">Sale 50%</div>
+                     <div class="card__icon">
+                        <img src="img/product/wishlist.svg" alt="wishlist">
+                        <img src="img/product/Quick.svg" alt="Quick">
+                     </div>
+                     <picture><source srcset="img/product/8.webp" type="image/webp"><img src="img/product/8.png" alt="tea" class="card__inner-img"></picture>
+                     <div class="card__inner">
+                        <div class="card__inner-box">
+                           <div class="card__inner-info">
+                              <div class="card__inner-title">Teltey Orange Tea</div>
+                              <div class="card__inner-price">₴199.99</div>
+                              <div class="rating rating__set">
+                                 <div class="rating__body">
+                                    <div class="rating__active"></div>
+                                    <div class="rating__items">
+                                       <input type="radio" class="rating__item" value="1" name="rating">
+                                       <input type="radio" class="rating__item" value="2" name="rating">
+                                       <input type="radio" class="rating__item" value="3" name="rating">
+                                       <input type="radio" class="rating__item" value="4" name="rating">
+                                       <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                 </div>
+                                 <div class="rating__value">4</div>
+                              </div>
+                           </div>
 
-                     <div class="card__item">
+                        </div>
+                        <a href="#" class="card__inner-basket">
+                           <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
+                                 stroke="#002403" stroke-width="1.3" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
+
+                        </a>
+                     </div>
+
+                  </div>
+                     
+                     
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Великолистовий, Яблуко, 150 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
+                        <div class="card__sale">Sale 50%</div>
+                        <div class="card__icon">
+                           <img src="img/product/wishlist.svg" alt="wishlist">
+                           <img src="img/product/Quick.svg" alt="Quick">
+                        </div>
+                        <picture><source srcset="img/product/4.webp" type="image/webp"><img src="img/product/4.png" alt="tea" class="card__inner-img"></picture>
+                        <div class="card__inner">
+                           <div class="card__inner-box">
+                              <div class="card__inner-info">
+                                 <div class="card__inner-title">Abrah Black Tea</div>
+                                 <div class="card__inner-price">₴109.99</div>
+                                 <div class="rating rating__set">
+                                    <div class="rating__body">
+                                       <div class="rating__active"></div>
+                                       <div class="rating__items">
+                                          <input type="radio" class="rating__item" value="1" name="rating">
+                                          <input type="radio" class="rating__item" value="2" name="rating">
+                                          <input type="radio" class="rating__item" value="3" name="rating">
+                                          <input type="radio" class="rating__item" value="4" name="rating">
+                                          <input type="radio" class="rating__item" value="5" name="rating">
+                                       </div>
+                                    </div>
+                                    <div class="rating__value">4</div>
+                                 </div>
+                              </div>
+
+                           </div>
+                           <a href="#" class="card__inner-basket">
+                              <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
+                                    stroke="#002403" stroke-width="1.3" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                              </svg>
+
+                           </a>
+                        </div>
+
+                     </div>
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Чорний чай, Саше, Ваніль, 30 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1640,48 +1665,9 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
-                        <div class="card__sale">Sale 50%</div>
-                        <div class="card__icon">
-                           <img src="img/product/wishlist.svg" alt="wishlist">
-                           <img src="img/product/Quick.svg" alt="Quick">
-                        </div>
-                        <picture><source srcset="img/product/7.webp" type="image/webp"><img src="img/product/7.png" alt="tea" class="card__inner-img"></picture>
-                        <div class="card__inner">
-                           <div class="card__inner-box">
-                              <div class="card__inner-info">
-                                 <div class="card__inner-title">Taaza Green Tea</div>
-                                 <div class="card__inner-price">₴159.99</div>
-                                 <div class="rating rating__set">
-                                    <div class="rating__body">
-                                       <div class="rating__active"></div>
-                                       <div class="rating__items">
-                                          <input type="radio" class="rating__item" value="1" name="rating">
-                                          <input type="radio" class="rating__item" value="2" name="rating">
-                                          <input type="radio" class="rating__item" value="3" name="rating">
-                                          <input type="radio" class="rating__item" value="4" name="rating">
-                                          <input type="radio" class="rating__item" value="5" name="rating">
-                                       </div>
-                                    </div>
-                                    <div class="rating__value">4</div>
-                                 </div>
-                              </div>
-
-                           </div>
-                           <a href="#" class="card__inner-basket">
-                              <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
-                                    stroke="#002403" stroke-width="1.3" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                              </svg>
-
-                           </a>
-                        </div>
-
-                     </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Саше, Груша, 25 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1722,18 +1708,21 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
+                     
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Розсипний, М'ятний, 180 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
                            <img src="img/product/Quick.svg" alt="Quick">
                         </div>
-                        <picture><source srcset="img/product/8.webp" type="image/webp"><img src="img/product/8.png" alt="tea" class="card__inner-img"></picture>
+                        <picture><source srcset="img/product/7.webp" type="image/webp"><img src="img/product/7.png" alt="tea" class="card__inner-img"></picture>
                         <div class="card__inner">
                            <div class="card__inner-box">
                               <div class="card__inner-info">
-                                 <div class="card__inner-title">Teltey Orange Tea</div>
-                                 <div class="card__inner-price">₴199.99</div>
+                                 <div class="card__inner-title">Taaza Green Tea</div>
+                                 <div class="card__inner-price">₴159.99</div>
                                  <div class="rating rating__set">
                                     <div class="rating__body">
                                        <div class="rating__active"></div>
@@ -1763,11 +1752,56 @@
                         </div>
 
                      </div>
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                     data-value="Білий чай, Збірний, Персик, 100 г">
+                     <a href="#popup3" class="card__popup popup-link"></a>
+                     <div class="card__sale">Sale 50%</div>
+                     <div class="card__icon">
+                        <img src="img/product/wishlist.svg" alt="wishlist">
+                        <img src="img/product/Quick.svg" alt="Quick">
+                     </div>
+                     <picture><source srcset="img/product/2.webp" type="image/webp"><img src="img/product/2.png" alt="tea" class="card__inner-img"></picture>
+                     <div class="card__inner">
+                        <div class="card__inner-box">
+                           <div class="card__inner-info">
+                              <div class="card__inner-title">Red Label Black tea</div>
+                              <div class="card__inner-price">₴140.99</div>
+                              <div class="rating rating__set">
+                                 <div class="rating__body">
+                                    <div class="rating__active"></div>
+                                    <div class="rating__items">
+                                       <input type="radio" class="rating__item" value="1" name="rating">
+                                       <input type="radio" class="rating__item" value="2" name="rating">
+                                       <input type="radio" class="rating__item" value="3" name="rating">
+                                       <input type="radio" class="rating__item" value="4" name="rating">
+                                       <input type="radio" class="rating__item" value="5" name="rating">
+                                    </div>
+                                 </div>
+                                 <div class="rating__value">4</div>
+                              </div>
+                           </div>
+
+                        </div>
+                        <a href="#" class="card__inner-basket">
+                           <svg class="custom__busket" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M8 10H5L3 21H21L19 10H16M8 10V7C8 4.79086 9.79086 3 12 3V3C14.2091 3 16 4.79086 16 7V10M8 10H16M8 10V13M16 10V13"
+                                 stroke="#002403" stroke-width="1.3" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
+
+                        </a>
+                     </div>
+
+                  </div>
                   </div>
                </div>
                <div class="product__item tabs__item active" id="tab_4">
                   <div class="card">
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Розсипний, Манго, 200г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1808,7 +1842,9 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Білий чай, Збірний, Персик, 100 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1849,7 +1885,9 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Чорний чай, Розсипний, Лимон, 250 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1890,7 +1928,9 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Великолистовий, Яблуко, 150 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1931,7 +1971,9 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Саше, Груша, 25 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -1972,7 +2014,9 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Чорний чай, Саше, Ваніль, 30 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -2013,7 +2057,9 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Зелений чай, Розсипний, М'ятний, 180 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -2054,7 +2100,9 @@
                         </div>
 
                      </div>
-                     <div class="card__item">
+                     <div class="card__item" data-label="Тип, Вид, Аромат, Вага"
+                        data-value="Чорний чай, Збірний, Чорниця, 300 г">
+                        <a href="#popup3" class="card__popup popup-link"></a>
                         <div class="card__sale">Sale 50%</div>
                         <div class="card__icon">
                            <img src="img/product/wishlist.svg" alt="wishlist">
@@ -2106,7 +2154,7 @@
 <section class="actions">
    <div class="actions__container">
       <div class="actions__inner">
-         <a href="#" class="actions__box" style="background-image: url(./img/actions/action-bg.png);">
+         <a href="#" class="actions__box" style="background-image: url(../img/actions/action-bg.png);">
             <div class="actions__box-info">
                <div class="actions__box-text">100% органічний</div>
                <div class="actions__box-title">Чорний чай та білий</div>
@@ -2115,7 +2163,7 @@
             </div>
 
          </a>
-         <a href="#" class="actions__box" style="background-image: url(./img/actions/action2-bg.png);">
+         <a href="#" class="actions__box" style="background-image: url(../img/actions/action2-bg.png);">
             <div class="actions__box-info">
                <div class="actions__box-text">розпродаж тижня</div>
                <div class="actions__box-title">Продажа року</div>
@@ -2527,7 +2575,7 @@
    </div>
 </footer>
    </div>
-   <script src="js/app.min.js?_v=20231002125016"></script>
+   <script src="js/app.min.js?_v=20231020115010"></script>
 </body>
 
 </html>
