@@ -16,6 +16,7 @@
 - Creation of UX/UI design
 - The visual layout is based on the design itself.
 - Using JS/jQuery introduced interactivity into the page.
+- Adaptability
 - SEO optimization
 
 ## Technology
