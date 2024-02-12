@@ -16,8 +16,7 @@
 - Creation of UX/UI design
 - The visual layout is based on the design itself.
 - Using JS/jQuery introduced interactivity into the page.
-- Adaptability
-- SEO optimization
+- SEO optimization and adaptability
 
 ## Technology
 ![HTML5](https://img.shields.io/badge/-HTML5-e34f26?logo=html5&logoColor=white)
