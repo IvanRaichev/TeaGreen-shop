@@ -2,7 +2,7 @@
   <img src = "https://i.ibb.co/D8LdGK3/logo2.png" alt ="Project logo" width = "726">
 </p>
 
-# <a href="https://ivanraichev.github.io/TeaGreen-shop/">One-page site</a>  for online store selling Tea
+# <a href="https://ivanraichev.github.io/TeaGreen-shop/">One-page site</a>  for online store selling sort of Tea
 
 
 - There is adaptive up to 320px
