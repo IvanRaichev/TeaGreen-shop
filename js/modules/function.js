@@ -1,3 +1,4 @@
+//check Webp format
 export function isWebp() {
    function testWebP(callback) {
 
