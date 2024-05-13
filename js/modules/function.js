@@ -20,6 +20,8 @@ export function isWebp() {
 
 }
 
+//add rating functional
+
 export function rating() {
 
    const ratings = document.querySelectorAll('.rating')
