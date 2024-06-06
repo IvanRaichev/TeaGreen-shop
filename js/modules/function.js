@@ -87,6 +87,8 @@ export function rating() {
    }
 }
 
+//add tabs fuctional
+
 export function tabs() {
    const tabsBtn = document.querySelectorAll(".tabs__nav-btn");
    const tabsItems = document.querySelectorAll(".tabs__item");
